@@ -42,12 +42,12 @@ function render() {
 }
 pop();
 var count = 0
-window.setInterval(() => {
-  if (count == 0) {
-    render()
-    count++
-  } else {
-    pop()
-  }
-}, 9000)
-// window.addEventListener('click', pop);
+// window.setInterval(() => {
+//   if (count == 0) {
+//     render()
+//     count++
+//   } else {
+//     pop()
+//   }
+// }, 9000)
+window.addEventListener('click', pop);
