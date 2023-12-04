@@ -49,5 +49,5 @@ window.setInterval(() => {
   } else {
     pop()
   }
-}, 5000)
+}, 9000)
 // window.addEventListener('click', pop);
