@@ -42,12 +42,14 @@ function render() {
 }
 pop();
 var count = 0
-// window.setInterval(() => {
-//   if (count == 0) {
-//     render()
-//     count++
-//   } else {
-//     pop()
-//   }
-// }, 9000)
-window.addEventListener('click', pop);
+var number = 8
+window.setInterval(() => {
+  if (count == 0) {
+    render()
+    count++
+    number = 11
+  } else {
+    pop()
+  }
+}, number * 1000)
+// window.addEventListener('click', pop);
