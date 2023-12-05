@@ -5,7 +5,7 @@ Splitting();
 let particles = [];
 const colors = ["#eb6383", "#fa9191", "#ffe9c5", "#b4f2e1"];
 function pop() {
-  for (let i = 0; i < 150; i++) {
+  for (let i = 0; i < 50; i++) {
     const p = document.createElement('particule');
     p.x = window.innerWidth * 0.5;
     p.y = window.innerHeight + (Math.random() * window.innerHeight * 0.3);
